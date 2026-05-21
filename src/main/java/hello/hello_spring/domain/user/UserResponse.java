@@ -1,5 +1,6 @@
 package hello.hello_spring.domain.user;
 
+import hello.hello_spring.domain.User;
 import lombok.Getter;
 
 import java.time.LocalDateTime;

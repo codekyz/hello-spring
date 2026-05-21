@@ -1,5 +1,7 @@
 package hello.hello_spring.domain.user;
 
+import hello.hello_spring.domain.User;
+import hello.hello_spring.repository.UserRepository;
 import lombok.RequiredArgsConstructor;
 import org.springframework.security.crypto.password.PasswordEncoder;
 import org.springframework.stereotype.Service;
