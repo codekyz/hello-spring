@@ -1,0 +1,7 @@
+<html xmlns:th="http://www.thymeleaf.org">
+<body>
+<p th:text="'Hello, ' + ${name}" >hello! empty</p>
+<!--단순 텍스트는 서버없이 웹에서 확인했을대 보이는것, 템플릿 엔진이 동작하면 해당 텍스트가 th:text로 치환됨-->
+<!--${data} 값은 Model에서 값을 꺼내오는 것-->
+</body>
+</html>
